@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+p>span {
+    word-wrap: break-word;
+}
+
+.chatbox {
+    width: 500px;
+    min-width: 390;
+    height: auto;
+    background: #fff;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 3px #ccc;
+    background: lightgray;
+}
+
+.chatbox .header {
+    background: #a4a6b5;
+    height: 90px;
+}
+
+.menuh {
+    display: inline-block;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.logo {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 22px;
+}
+
+.chat-h p {
+    padding: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.chatlogs {
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: aliceblue;
+}
+
+.chatlogs::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat {
+    max-width: 55%;
+    clear: both;
+    margin: 1.5%;
+}
+
+.chat .chat-mensaje {
+    padding: 18px;
+    color: #fff;
+}
+
+.time,
+.name {
+    text-align: center;
+    margin: 10px;
+}
+
+#firstmsjF {
+    float: right;
+    background: url(img1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.friend {
+    float: right;
+    background: url(img2.svg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    -webkit-filter: drop-shadow(-3px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+#firstmsj {
+    float: left;
+    background: url(img3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    fill: #555554;
+}
+
+.another-friend {
+    float: left;
+    background: url(img4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+}
+
+.friend .chat-mensaje {
+    text-align: right;
+}
+
+.chat-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat-form textarea {
+    background: #fbfbfb;
+    width: 90%;
+    height: 50px;
+    border: 2px solid #737373;
+    border-radius: 7px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    background: 42dff4#;
+}
+
+.chat-form textarea:focus {
+    background: #fff;
+}
+
+.chat-form textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-form textarea::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba (0, 0, 0, .1);
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.footer div {
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+
+.footer div:hover {
+    cursor: pointer;
+}
+
+.footer span {
+    color: #595959;
+}
+
+.footer p {
+    color: #595959;
+}
